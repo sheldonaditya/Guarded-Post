@@ -1,11 +1,11 @@
 const localKeyName = 'agreed18';
 const strings = {
-    welcome: 'Hayo!',
-    site_contains_adult_materials: 'This site contains sexually-oriented adult materials which may be offensive to some viewers.',
-    acknowledge_confirm_majority: 'To continue, please acknowledge and confirm you are over <span class="underline">18</span>.',
-    button_over18: 'I am over 18',
-    button_under18: 'I am under 18',
-    footer_imprint_paragraph: 'By entering to this website, you are agreeing to the Terms of Use and Privacy Policy.',
+    welcome: 'Tunggu dulu!',
+    site_contains_adult_materials: 'Hayo! Udah cukup umur belum?',
+    acknowledge_confirm_majority: 'Untuk melanjutkan, kamu harus berusia setidaknya <span class="underline">20</span>tahun.',
+    button_over18: 'Udah dong',
+    button_under18: 'Belum nih',
+    footer_imprint_paragraph: 'Untuk tujuan edukasi, orang berusia di bawah umur harus didampingi orang dewasa.',
 };
 
 class Disclaimer {
