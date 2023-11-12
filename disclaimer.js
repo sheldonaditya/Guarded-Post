@@ -1,6 +1,6 @@
 const localKeyName = 'agreed18';
 const strings = {
-    welcome: 'Welcome!',
+    welcome: 'Hayo!',
     site_contains_adult_materials: 'This site contains sexually-oriented adult materials which may be offensive to some viewers.',
     acknowledge_confirm_majority: 'To continue, please acknowledge and confirm you are over <span class="underline">18</span>.',
     button_over18: 'I am over 18',
@@ -18,7 +18,6 @@ class Disclaimer {
 
     loadDialog() {
         if (this.dialogStatus === 0) {
-            this.backgroundElement.style.opacity = '0.95';
             this.backgroundElement.style.display = 'block';
             this.dialogElement.style.display = 'block';
 
@@ -42,8 +41,6 @@ class Disclaimer {
         const dialogWidth = parseInt(window.getComputedStyle(this.dialogElement).width);
 
         this.dialogElement.style.position = 'absolute';
-        this.dialogElement.style.top = (windowHeight / 2 - dialogHeight / 2).toString() + 'px';
-        this.dialogElement.style.left = (windowWidth / 2 - dialogWidth / 2).toString() + 'px';
         this.backgroundElement.style.height = windowHeight;
     }
 
