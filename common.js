@@ -1,4 +1,4 @@
-const disagreedRedirectLink = "https://google.com"; // <= URL to show when the visitor is likely to be under 18yrs
+const disagreedRedirectLink = "https://www.sheldonaditya.com"; // <= URL to show when the visitor is likely to be under 18yrs
 
 Disclaimer.generateDialog();
 
